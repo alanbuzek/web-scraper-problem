@@ -4,4 +4,4 @@ My solution written in Node (Javascript) to the problem specified here: https://
 
 ## Solution
 
-Using Node's Puppeteer web scraping library, the login url is opened (headless Chromium browser), login formed filled with given credentials and submitted. Thereafter, GET request is sent from the context of the page containing necessary credentials (cookie). The result is parsed and outputted into result.json.
+Using Node's Puppeteer web scraping library, the login url is opened (headless Chromium browser), login formed filled with given credentials and submitted. Thereafter, GET request is sent from the context of the page containing necessary credentials (cookie). The result is parsed and outputted into data.json.

@@ -28,7 +28,7 @@ const scraper = async () => {
   if (!data) return console.log(`Couldn't get data`);
 
   // write result into json
-  fs.writeFileSync('result.json', data, function(err) {
+  fs.writeFileSync('data.json', data, function(err) {
     if (err) {
       console.log(err);
     }
